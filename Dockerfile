@@ -1,6 +1,6 @@
-FROM python:3.6
+FROM python:3.8
 
-ARG AIRFLOW_VERSION=1.10.0
+ARG AIRFLOW_VERSION=2.0.0
 
 ENV AIRFLOW_HOME=/usr/local/airflow
 
